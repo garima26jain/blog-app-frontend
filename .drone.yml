@@ -9,7 +9,7 @@ steps:
       - npm install -g jest
       - npm install -g enzyme-adapter-react-16
       - git clone https://github.com/unsortedArray/blog-app-FE-test-cases.git
-      - cd blog-app-FE-test-cases.git
+      - cd blog-app-FE-test-cases
       - cp -a ./ ../src/__tests__
       - npm install -g enzyme
       - npm install -g jest
